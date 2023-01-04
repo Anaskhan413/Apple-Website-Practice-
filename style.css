@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+:root {
+    --white-color: #eeeeee;
+    --purple-color: #8a2be2;
+    --dark-color: #120052;
+    --gold-color: #ffae00;
+
+}
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.header-section {
+
+
+    background: #f4c4f3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc67fa, #f4c4f3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.header-section nav {
+    width: 100%;
+    height: 89%;
+}
+
+.logo i {
+
+    font-size: 50px;
+    color: var(--white-color);
+    line-height: 80px;
+    padding: 0px 100px;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+
+}
+
+nav li {
+
+    line-height: 80px;
+    display: inline-block;
+    margin: 0px 5px;
+
+}
+
+nav ul li a {
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+    padding: 5px 10px;
+
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background: var(--white-color);
+    color: var(--purple-color);
+
+}
+
+#icon i {
+    color: var(--white-color);
+    font-size: 30px;
+    line-height: 80px;
+    margin-right: 80px;
+    float: right;
+    cursor: pointer;
+    display: none;
+
+
+}
+
+.header-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+
+}
+
+
+.content-box {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.content-box h1 {
+
+    color: var(--white-color);
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.content-box p {
+
+    width: 550px;
+    color: var(--white-color);
+    line-height: 30px;
+
+}
+
+.content-box button {
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 0px;
+    width: 150px;
+    cursor: pointer;
+    color: var(--gold-color);
+    transition: 0.3s;
+}
+
+#text {
+    text-align: justify;
+    text-align: center;
+    font-weight: 400;
+    color: var(--purple-color);
+    transition: 0.4s;
+    text-shadow: #eeeeee;
+    text-align-last: center;
+    padding: 100px;
+    margin: auto;
+    width: 640px;
+
+}
+
+#short {
+    margin-left: 50px;
+    text-indent: 5px;
+    text-align: left;
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+
+#short1 {
+
+    text-align: center;
+    margin-right: 50px;
+    text-indent: 5px;
+    font-size: 25px;
+}
+
+main {
+    display: block;
+    display: flex;
+    font-display: var(--white-color);
+    lighting-color: #eeeeee;
+}
+
+.section2 {
+    display: flex;
+}
+
+.light {
+
+    font-size: smaller;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-display: var(--purple-color);
+    font-weight: 700;
+    text-align: justify;
+    text-indent: 0pt;
+}
+
+.footer {
+
+    background-color: lightgrey;
+    margin: 0;
+    padding: 70;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    background-color: beige;
+    margin: auto;
+
+}
+
+.ul {
+    list-style: none;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col h4 {
+
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,100;1,400;1,700;1,800&display=swap');
+</style>
